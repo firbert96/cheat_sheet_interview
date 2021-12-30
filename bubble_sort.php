@@ -8,7 +8,7 @@ function bubble_sort($array){
     echo "</pre>";
 
     $temp = 0; 
-    echo "<h4>Debug : </h4>";
+    // echo "<h4>Debug : </h4>";
     for($i = 0; $i<sizeof($array);$i++)
     {
         for($j = 0; $j<sizeof($array) - $i - 1;$j++)
@@ -18,17 +18,17 @@ function bubble_sort($array){
                 $temp = $array[$j];
                 $array[$j] = $array[$j+1];
                 $array[$j+1] = $temp;
-                echo "<pre>";
-                echo $j;
-                echo " ";
-                echo $j+1;
-                echo " ";
-                echo $array[$j];
-                echo " ";
-                echo $array[$j+1];
-                echo "<br>";
-                print_r($array);
-                echo "</pre>";
+                // echo "<pre>";
+                // echo $j;
+                // echo " ";
+                // echo $j+1;
+                // echo " ";
+                // echo $array[$j];
+                // echo " ";
+                // echo $array[$j+1];
+                // echo "<br>";
+                // print_r($array);
+                // echo "</pre>";
             }
         }
     }

@@ -63,7 +63,7 @@ function coin_toss_HT($n)
     return $result;
 }
 
-$test_case = [-1,0,1,2,3,4,5];
+$test_case = [-1,0,1,2,3];
 for($i = 0;$i<sizeof($test_case);$i++)
 {
     coin_toss_HT($test_case[$i]);
